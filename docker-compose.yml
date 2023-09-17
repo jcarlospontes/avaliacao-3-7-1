@@ -1,0 +1,8 @@
+version: '3'
+services:
+  webserver:
+    build:
+    #cria a imagem a partir do dockerfile no mesmo diretorio.
+      context: .
+    ports:
+      - "80:80"
